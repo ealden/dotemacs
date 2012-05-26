@@ -1,0 +1,3 @@
+[submodule "site-lisp/color-theme"]
+	path = site-lisp/color-theme
+	url = git://github.com/jwiegley/color-theme.git

@@ -26,5 +26,7 @@
 
 (add-to-list 'load-path site-lisp-path)
 
+(load-file (concat etc-path "/color-theme.el"))
+
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
