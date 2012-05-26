@@ -1,5 +1,4 @@
 (set-face-attribute 'default nil :font "Inconsolata-12")
-(ns-toggle-fullscreen)
 (windmove-default-keybindings)
 
 (custom-set-variables
@@ -32,3 +31,5 @@
 
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
+
+(global-set-key (kbd "M-RET") 'ns-toggle-fullscreen)
