@@ -30,6 +30,7 @@
 (load-file (concat etc-path "/coffee.el"))
 (load-file (concat etc-path "/rinari.el"))
 (load-file (concat etc-path "/java.el"))
+(load-file (concat etc-path "/ruby.el"))
 
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
