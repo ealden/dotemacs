@@ -16,3 +16,6 @@
 [submodule "site-lisp/haml-mode"]
 	path = site-lisp/haml-mode
 	url = git://github.com/nex3/haml-mode.git
+[submodule "site-lisp/rvm"]
+	path = site-lisp/rvm
+	url = https://github.com/senny/rvm.el.git

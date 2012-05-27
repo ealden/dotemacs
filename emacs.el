@@ -30,6 +30,7 @@
 (load-file (concat etc-path "/coffee.el"))
 (load-file (concat etc-path "/rinari.el"))
 (load-file (concat etc-path "/java.el"))
+(load-file (concat etc-path "/rvm.el"))
 (load-file (concat etc-path "/ruby.el"))
 (load-file (concat etc-path "/markdown.el"))
 (load-file (concat etc-path "/haml.el"))
