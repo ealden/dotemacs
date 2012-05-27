@@ -32,6 +32,7 @@
 (load-file (concat etc-path "/java.el"))
 (load-file (concat etc-path "/ruby.el"))
 (load-file (concat etc-path "/markdown.el"))
+(load-file (concat etc-path "/haml.el"))
 
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
