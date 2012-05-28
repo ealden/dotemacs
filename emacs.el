@@ -27,6 +27,7 @@
 
 (load-file (concat etc-path "/color-theme.el"))
 (load-file (concat etc-path "/peepopen.el"))
+(load-file (concat etc-path "/whitespace.el"))
 (load-file (concat etc-path "/coffee.el"))
 (load-file (concat etc-path "/rinari.el"))
 (load-file (concat etc-path "/java.el"))
