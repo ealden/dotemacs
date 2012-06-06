@@ -1,7 +1,7 @@
-(add-to-list 'load-path (concat emacs.d-path "/vendor/textmate.el"))
+(add-to-list 'load-path (concat vendor-path "/textmate.el"))
 (require 'textmate)
 
-(add-to-list 'load-path (concat emacs.d-path "/vendor"))
+(add-to-list 'load-path (concat vendor-path "/vendor"))
 (require 'peepopen)
 
 (textmate-mode)

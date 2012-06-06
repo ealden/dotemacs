@@ -4,7 +4,7 @@ git submodule init
 git submodule update
 
 # Init Rinari modules
-cd site-lisp/rinari
+cd vendor/rinari
 git submodule init
 git submodule update
 

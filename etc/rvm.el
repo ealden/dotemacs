@@ -1,4 +1,4 @@
-(add-to-list 'load-path (concat site-lisp-path "/rvm"))
+(add-to-list 'load-path (concat vendor-path "/rvm"))
 (require 'rvm)
 
 (rvm-use-default)

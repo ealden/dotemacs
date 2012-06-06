@@ -1,4 +1,4 @@
-(add-to-list 'load-path (concat site-lisp-path "/color-theme"))
+(add-to-list 'load-path (concat vendor-path "/color-theme"))
 
 (require 'color-theme)
 (color-theme-initialize)

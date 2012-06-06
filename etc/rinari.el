@@ -1,2 +1,2 @@
-(add-to-list 'load-path (concat site-lisp-path "/rinari"))
+(add-to-list 'load-path (concat vendor-path "/rinari"))
 (require 'rinari)
