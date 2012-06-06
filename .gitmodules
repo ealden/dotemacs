@@ -19,3 +19,6 @@
 [submodule "site-lisp/rvm"]
 	path = site-lisp/rvm
 	url = https://github.com/senny/rvm.el.git
+[submodule "site-lisp/yaml-mode"]
+	path = site-lisp/yaml-mode
+	url = git://github.com/yoshiki/yaml-mode.git
