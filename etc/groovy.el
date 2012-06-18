@@ -9,3 +9,7 @@
           '(lambda ()
              (require 'groovy-electric)
              (groovy-electric-mode)))
+
+;; Gradle
+(add-to-list 'auto-mode-alist '("\.gradle$" . groovy-mode))
+(add-to-list 'interpreter-mode-alist '("gradle" . groovy-mode))
