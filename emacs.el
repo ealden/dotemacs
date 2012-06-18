@@ -37,6 +37,7 @@
 (load-file (concat etc-path "/haml.el"))
 (load-file (concat etc-path "/yaml.el"))
 (load-file (concat etc-path "/go.el"))
+(load-file (concat etc-path "/groovy.el"))
 
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
