@@ -1,4 +1,3 @@
-(add-to-list 'load-path (concat vendor-path "/coffee-mode"))
 (require 'coffee-mode)
 
 (add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
