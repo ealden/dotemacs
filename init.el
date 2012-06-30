@@ -26,8 +26,8 @@
 (add-to-list 'load-path vendor-path)
 
 (load-file (concat etc-path "/package.el"))
-(load-file (concat etc-path "/themes.el"))
-;;(load-file (concat etc-path "/color-theme.el"))
+;;(load-file (concat etc-path "/themes.el"))
+(load-file (concat etc-path "/color-theme.el"))
 (load-file (concat etc-path "/peepopen.el"))
 (load-file (concat etc-path "/whitespace.el"))
 (load-file (concat etc-path "/coffee.el"))
