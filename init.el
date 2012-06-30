@@ -25,9 +25,8 @@
 
 (add-to-list 'load-path vendor-path)
 
-(load-theme 'wombat t)
-
 (load-file (concat etc-path "/package.el"))
+(load-file (concat etc-path "/themes.el"))
 ;;(load-file (concat etc-path "/color-theme.el"))
 (load-file (concat etc-path "/peepopen.el"))
 (load-file (concat etc-path "/whitespace.el"))
