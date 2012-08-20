@@ -11,3 +11,6 @@
 
 (add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode))
 (add-to-list 'interpreter-mode-alist '("rake" . ruby-mode))
+
+(add-to-list 'auto-mode-alist '("\\.jbuilder$" . ruby-mode))
+(add-to-list 'interpreter-mode-alist '("jbuilder" . ruby-mode))
