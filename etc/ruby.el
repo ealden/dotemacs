@@ -14,3 +14,6 @@
 
 (add-to-list 'auto-mode-alist '("\\.jbuilder$" . ruby-mode))
 (add-to-list 'interpreter-mode-alist '("jbuilder" . ruby-mode))
+
+(add-to-list 'auto-mode-alist '("\\.ru$" . ruby-mode))
+(add-to-list 'interpreter-mode-alist '("ru" . ruby-mode))
