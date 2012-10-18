@@ -17,3 +17,6 @@
 
 (add-to-list 'auto-mode-alist '("\\.ru$" . ruby-mode))
 (add-to-list 'interpreter-mode-alist '("ru" . ruby-mode))
+
+(add-to-list 'auto-mode-alist '("Guardfile$" . ruby-mode))
+(add-to-list 'interpreter-mode-alist '("Guardfile" . ruby-mode))
