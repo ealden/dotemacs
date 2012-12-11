@@ -23,3 +23,6 @@
 
 (add-to-list 'auto-mode-alist '("Capfile$" . ruby-mode))
 (add-to-list 'interpreter-mode-alist '("Capfile" . ruby-mode))
+
+(add-to-list 'auto-mode-alist '("\\.gemspec$" . ruby-mode))
+(add-to-list 'interpreter-mode-alist '("gemspec" . ruby-mode))
