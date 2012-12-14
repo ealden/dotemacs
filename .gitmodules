@@ -1,6 +1,3 @@
 [submodule "vendor/rinari"]
         path = vendor/rinari
         url = git://github.com/eschulte/rinari.git
-[submodule "vendor/haml-mode"]
-	path = vendor/haml-mode
-	url = git://github.com/ealden/haml-mode

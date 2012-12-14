@@ -11,7 +11,7 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-(defvar my-packages '(textmate peepopen coffee-mode markdown-mode yaml-mode go-mode groovy-mode color-theme nginx-mode)
+(defvar my-packages '(textmate peepopen coffee-mode markdown-mode yaml-mode go-mode groovy-mode color-theme nginx-mode haml-mode)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
